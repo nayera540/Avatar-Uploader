@@ -1,0 +1,46 @@
+body {
+    font-family: 'Salsa', cursive;
+    background-color: #1c1c1dff;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+
+}
+
+img{
+    background-color: #939392ff;
+    border-radius: 50%;
+    width: 127px;
+    height: 127px;
+}
+h2{
+    color: white;
+}
+
+#file {
+    opacity: 0;
+    position: absolute;
+}
+#file-label {
+    background-color: #f9b633ff;
+    width: 127px; /* Change 'auto' to the desired width, e.g., '200px' */
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block; /* Add this to ensure width works as expected */
+    text-align: center; /* Optionally center text horizontally */
+    line-height: 30px; /* Optionally center text vertically */
+    margin-top: 20px;
+}
+
+#file-label:hover {
+    background-color: #1c1c1dff;
+    color: white;
+    border: 1px solid #f9b633ff;
+    cursor: pointer;
+}
+
